@@ -13,4 +13,4 @@ print('Params:' + params)
 
 model = str(net)  # 将模型强制转换成字符串以便写入文件
 file = open("Alexnet.txt", 'w')
-file.write(model)
+file.write(model)  #将参数写入文件
